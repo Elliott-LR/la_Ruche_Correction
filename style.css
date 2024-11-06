@@ -31,10 +31,12 @@
     font-family: "WindSong", cursive;
     font-size: 128px;
     font-weight: 500;
+    color: #593E26;
 }
 
 h1 {
     font-size: 32px;
+    color: #593E26;
 }
 
 .container {
@@ -51,6 +53,14 @@ h1 {
 
 .spaceBetween{
     justify-content: space-between;
+}
+
+h3 {
+    color: #593E26;
+}
+
+.textBrown {
+    color: #1E150C;
 }
 
 header {
