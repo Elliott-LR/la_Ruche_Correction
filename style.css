@@ -51,11 +51,15 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* les marges */
 .largeur30 {
     width: 30%;
 }
 .largeur45 {
     width: 45%;
+}
+.largeur60 {
+    width: 60%;
 }
 .largeur100 {
     width: 100%;
@@ -67,6 +71,13 @@ h1 {
     margin-bottom: 30px;
 }
 
+.card {
+    padding: 16px;
+}
+.responsive {
+    display: block;
+    width: 100%;
+}
 
 .spaceBetween{
     justify-content: space-between;
@@ -75,6 +86,11 @@ h1 {
 
 h3 {
     color: #593E26;
+    font-size: 32px;
+}
+
+address {
+    font-style: normal;
 }
 
 .textBrown {
@@ -109,4 +125,12 @@ a {
 .navHeader {
     /*background-color: blueviolet;*/
     width: 50%;
+}
+
+.size24 {
+    font-size: 24px;
+}
+.fontClient {
+    font-family: "Inter", serif;
+    font-weight: 800;
 }
