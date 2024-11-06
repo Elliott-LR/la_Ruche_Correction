@@ -51,9 +51,27 @@ h1 {
     flex-wrap: wrap;
 }
 
+.largeur30 {
+    width: 30%;
+}
+.largeur45 {
+    width: 45%;
+}
+.largeur100 {
+    width: 100%;
+}
+.padingTopBot {
+    padding: 50px 0px;
+}
+.marginBot {
+    margin-bottom: 30px;
+}
+
+
 .spaceBetween{
     justify-content: space-between;
 }
+
 
 h3 {
     color: #593E26;
